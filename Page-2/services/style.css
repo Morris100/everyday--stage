@@ -39,9 +39,6 @@
     }
   }
   @media only screen and (max-width: 800px) {
-    .services   .content{
-
-    }
     .services  .flex-around{
         display: grid !important;
         grid-template-columns: 1fr !important;

@@ -122,10 +122,10 @@ background: linear-gradient(180deg, rgba(13,11,11,0.5662640056022409) 100%,
     }
   }
   @media only screen and (max-width: 1900.98px){
-      .content:nth-child(3){
+      /* .content:nth-child(3){
           margin: 0 auto;
       }
       .content:nth-child(2) , .content:nth-child(1){
           
-      }
+      } */
   }
