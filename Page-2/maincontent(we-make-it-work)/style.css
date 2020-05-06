@@ -1,0 +1,56 @@
+.maincontent {
+    font-family: 'Open Sans', sans-serif;
+}
+.maincontent{
+    margin: 50px 0px;
+}
+.maincontent .content-text{
+    width: 15%;
+    float: left;
+}
+.maincontent .content-text h4{
+    font-weight: 300;
+    font-size: 27px;
+    letter-spacing: 1px;
+    display: block;
+}
+.maincontent .content-content p{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 300;
+    width: 70%;
+}
+.maincontent .content-content{
+    width: 100%;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .maincontent    .flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .maincontent    .content-text{
+        width: 100%;
+    }
+    .maincontent    .content-text h4{
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 40px
+    }
+    .maincontent    .content-content{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    .maincontent   .content-content p{
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .maincontent  .content-content p{
+        font-size: 17px;
+    }
+  }

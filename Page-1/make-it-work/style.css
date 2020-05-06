@@ -1,0 +1,131 @@
+.make-it-work .negative-margin{
+    margin-top: -120px;
+    position: relative;
+    z-index: 4;
+    padding-bottom: 50px;
+}
+.make-it-work .text h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #FFFF;
+    position: relative;
+    z-index: 5;
+}
+.make-it-work .bottom-content h4{
+    width: 15%;
+    font-size: 2.0em;
+    font-weight: 300;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    align-self: flex-start;
+}
+.make-it-work .bottom-content p{
+    line-height: 1.7em;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 75%;
+    margin: 0 auto;
+}
+.make-it-work .bottom-content{
+    margin-top: 50px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* =============================================== */
+.make-it-work .content{
+    width: 410px;
+    height: 238px;
+    margin: 1px;
+    position: relative;
+}
+.make-it-work .content1{
+    background-image: url('img/Layer 35.png');
+    background-size: cover;
+}
+.make-it-work .content2{
+    background-image: url('img/Laag 3.png');
+    background-size: cover;
+}
+.make-it-work .content3{
+    background-image: url('img/Laag 3 kopieen 2.png');
+    background-size: cover;
+}  
+.make-it-work .filter{
+    background: rgb(157,7,15);
+    background: linear-gradient(180deg, rgba(157,7,15,0.742734593837535) 100%, rgba(255,0,0,0.7315301120448179) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.make-it-work .filter-grey{
+    background: rgb(13,11,11);
+background: linear-gradient(180deg, rgba(13,11,11,0.5662640056022409) 100%,
+ rgba(255,0,0,0.7315301120448179) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.make-it-work .filter img{
+    width: 100%;
+    height: 100%;
+}
+.make-it-work .content-text{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+.make-it-work .content-text p{
+    margin: 0px 0px 4px 0px;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 1px;
+}
+.make-it-work .content-text h4{
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/* ===================RESPONSIVE============================== */
+@media only screen and (max-width: 1600px) {
+    .make-it-work  .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }@media only screen and (max-width: 1275px) {
+    .make-it-work .content{
+    margin: 0 auto;
+}
+  }
+  @media only screen and (max-width: 900px) {
+    .make-it-work   .bottom-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .make-it-work   .bottom-content h4{
+        width: 100%;
+    }
+    .make-it-work    .bottom-content p{
+        margin: 0;
+        padding: 0;
+    }
+  }
+  @media only screen and (max-width: 1900.98px){
+      .content:nth-child(3){
+          margin: 0 auto;
+      }
+      .content:nth-child(2) , .content:nth-child(1){
+          
+      }
+  }

@@ -1,0 +1,19 @@
+21-4-2020
+
+header afmaken en responsive
+content blok eronder weer proberen
+footer even afmaken
+
+alles nalopen of het klopt
+
+==ABOVE IS DONE==
+
+2de pagina af maken (savonds/snachts) ook responsive 
+
+22-4-2020 pagina 3 afmaken, (styling responsive etc)
+
+23-4-2020 pagina 4 maken 
+
+24-4-2020 pagina 4 maken en pagina 5
+
+24-5-2020 kijken of alle styling precies overeen komt met die op adobe xd + opleveren ( alles in één html file krijgen )

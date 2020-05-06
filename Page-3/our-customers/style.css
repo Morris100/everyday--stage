@@ -1,0 +1,42 @@
+.our-customers p span{
+    color: #DF0A15;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+.margin-50{
+    margin: 50px 0px !important;
+}
+.our-customers h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.our-customers p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.our-customers.container{
+    padding: 40px 0px;
+}
+@media only screen and (max-width: 1500px) {
+    .our-customers  .flex{
+        /* display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center; */
+
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .our-customers .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .our-customers  .img{
+        width: 100%;
+        height: 100%;
+    }
+  }

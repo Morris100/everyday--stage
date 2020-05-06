@@ -1,0 +1,9 @@
+<?php 
+require('heading/index.html');
+require('make-it-work/index.html');
+require('how-we-do-it/index.html');
+require('make-it-special/index.html');
+require('FAQ/index.html');
+require('services/index.html');
+require('make-it-work-2/index.html');
+require('footer/index.html');

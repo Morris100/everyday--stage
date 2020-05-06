@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =======================================HELPER    CLASSES============================== */
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.content-width{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.block{
+    display: block;
+}
+
+
+
+
+/* ===========flexbox && grid helper classes============ */
+.flex{
+    display: flex;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+/* ==================================================== */
+/* ============== helper classes for content/text==================== */
+.tac{
+    text-align: center;
+}
+/* =============== FLOATS============= */
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+/* ================================= */
+.dib{
+    display: inline-block;
+}
+.tac{
+    text-align: center;
+}
+.m0-a{
+    margin: 0 auto;
+}
