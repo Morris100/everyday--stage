@@ -54,6 +54,7 @@ z-index: 2;
     vertical-align: middle; 
     position: relative;
     margin-top: 11px;
+    justify-content: flex-end;
 }
 .heading .select img{
     width: 20px;

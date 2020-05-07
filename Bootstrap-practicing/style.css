@@ -1,0 +1,9 @@
+.container{
+    font-family: 'Open Sans', sans-serif;
+}
+.collapse.show {
+    visibility: visible;
+}
+p{
+    color: violet;
+}
