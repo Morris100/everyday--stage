@@ -38,9 +38,8 @@ body{
 }
 /* =============================================== */
 .make-it-work .content{
-    width: 410px;
+    width: 470px;
     height: 238px;
-    margin: 1px;
     position: relative;
 }
 .make-it-work .content1{
@@ -50,6 +49,8 @@ body{
 .make-it-work .content2{
     background-image: url('img/Laag 3.png');
     background-size: cover;
+    border-left: 1px solid #FFFF;
+    border-right: 1px solid #FFFF;
 }
 .make-it-work .content3{
     background-image: url('img/Laag 3 kopieen 2.png');
