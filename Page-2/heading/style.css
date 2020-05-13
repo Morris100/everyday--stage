@@ -135,4 +135,14 @@ z-index: 2;
       .heading2   .hero-text h1{
           font-size:2.2em
       }
+
   }
+  @media only screen and (max-width: 995px){
+    .heading2 .select{
+        justify-content: flex-start;
+    }
+    .heading2 .navigate a{
+        margin: 10px 0px 0px 0px;
+        
+    }
+}

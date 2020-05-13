@@ -52,7 +52,7 @@ body{
 .footer .flex-row .flex-column:nth-child(2){
     margin-left: 45px;
 }
-/* =========3 serperate divs==== */
+/* =========3 serperate divs====
 .footer .contact{
     width: 25%;
 }
@@ -63,14 +63,14 @@ body{
    width: 25%;
 }
 /* ================= responsive=========== */
-@media only screen and (max-width:1300px) {
+/* @media only screen and (max-width:1300px) {
     .footer  .flex{
         display: flex;
         flex-wrap: wrap;
     }
     .footer  .flex-row {
-        /* display: flex;
-        flex-flow: row-reverse !important; */
+        display: flex;
+        flex-flow: row-reverse !important; 
         justify-content: flex-end; 
         margin: auto;
 
@@ -98,4 +98,10 @@ body{
         width: 230px;
         height: auto;
     }
-  }
+  } */ 
+
+  @media only screen and (max-width: 550px){
+    .footer .content-width{
+        width: 100%;
+    }
+}

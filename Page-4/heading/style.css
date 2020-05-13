@@ -136,3 +136,12 @@ z-index: 2;
           font-size:2.2em
       }
   }
+  @media only screen and (max-width: 995px){
+    .heading-4 .select{
+        justify-content: flex-start;
+    }
+    .heading-4 .navigate a{
+        margin: 10px 0px 0px 0px;
+        
+    }
+}
