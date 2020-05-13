@@ -45,7 +45,7 @@
 .other-products .flex-between{
     padding: 60px 0px 20px 0px;
 }
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
     .other-products    .responsive-flex{
         display: flex;
     }
@@ -57,7 +57,7 @@
         display: flex;
         flex-direction: column;
     }
-  }
+  } */
   @media only screen and (max-width: 760px) {
     .other-products     .text {
         display: flex;
@@ -77,7 +77,7 @@
         margin-top: 20px;
         width: 100%;
     }
-    .other-products   .responsive-flex{
+    /* .other-products   .responsive-flex{
         display: block;
     }
     .other-products    .content1{
@@ -89,5 +89,5 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+    } */
   }
