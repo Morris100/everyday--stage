@@ -1,0 +1,147 @@
+.heading-4 .background{
+    background-image: url('img/headingimgpage4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.heading-4 .grey-filter{
+     /* filter: grayscale(85%) brightness(90%) contrast(2);  */
+/* filter: grayscale(20%); */
+background-color:rgba(22, 22, 22, 0.5);
+position: relative;
+z-index: 2;
+}
+.heading-4 .z-index-content{
+    position: relative;
+    z-index: 1;
+}
+.heading-4 .flex-between h3{
+    display: flex;
+    color: white;
+    font-size: 2.2em;
+    align-items: center;
+    vertical-align: middle; 
+    margin-bottom: 0px;
+    font-family: 'Trocchi', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.heading-4 h3 span{
+    color: #DF0A15;
+}
+.heading-4 nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+}
+.heading-4 .navigate a:first-child{
+    margin-left: 40px;
+}
+.heading-4 .navigate{
+    margin-top: 10px;
+    align-items: center;
+    vertical-align: middle;    
+}
+.heading-4 .select{
+    display: flex;
+    align-items: center;
+    vertical-align: middle; 
+    position: relative;
+    margin-top: 11px;
+}
+.heading-4 .select img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 3px 0px 12px;
+}
+.heading-4 .navigate a:nth-child(6) span{
+    color: white;
+    display: inline-block;    
+    background-color: #DF0A15;
+    padding: 2px;
+    border-radius: 60px;
+    font-size: 0.7em;
+    padding: 0px 4px;
+    
+/* code to put span element up */
+
+}
+.heading-4 .content-width{
+    padding: 20px 0px 80px 0px;
+}
+.heading-4 .hero-text{
+    width: 95%;
+    margin: 0 auto;
+}
+.heading-4 .fas{
+    color: white;
+}
+.heading-4 .fa-search{
+    background-color: #DF0A15;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 0.9em;
+}
+/* ========== start hero text ( middle part ) ======== */
+.heading-4 .hero-text h1{
+    color: white;
+    font-size: 57px;
+    text-align: left;
+    margin-top: 80px;
+}
+.heading-4 .hero-text h1 span{
+    color: #DF0A15;
+}
+/* ================= RESPONSIVE =============== */
+@media only screen and (max-width: 1700px) {
+    .heading-4    nav{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: flex-start; */
+    }
+    .heading-4  .navigate a:first-child{
+        display: flex;
+        align-self: flex-start;
+        justify-content: flex-start;
+        margin-left: 0px;
+    }
+    .heading-4    .navigate{
+       
+    }
+    .heading-4   .navigate a:nth-child(6) span{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .heading-4   .navigate{
+          display: flex	;
+          flex-wrap: wrap;
+      }
+      .heading-4    .navigate a{
+          display: flex;
+          align-self: flex-start;
+          justify-content: flex-start;
+          float: left;
+          margin: 10px;
+      }
+      .heading-4   .hero-text h1{
+          font-size:2.2em
+      }
+  }
+  @media only screen and (max-width: 995px){
+    .heading-4 .select{
+        justify-content: flex-start;
+    }
+    .heading-4 .navigate a{
+        margin: 10px 0px 0px 0px;
+        
+    }
+}

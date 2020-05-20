@@ -1,0 +1,46 @@
+.services .background{
+    background-image: url('img/mask group 2.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;   
+    z-index: -5;
+    /* filter: grayscale(85%) brightness(70%) contrast(2); */
+}
+.services .content p{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 	300;
+}
+.services .content img{
+    padding-bottom: 10px;
+}
+.services .content{
+    padding: 90px 0px;
+    position: relative;
+    z-index: 100;
+}
+.services .dark-bg{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(25,24,24,0.7455357142857143) 100%, rgba(0,0,0,0.4234068627450981) 100%);
+    position: relative;
+    z-index: -1;
+}
+
+/* ==== responsive ? ========= */
+@media only screen and (max-width: 1600px) {.background{background-size: cover;}}
+@media only screen and (max-width: 1200px) {
+    .services  .content p{
+        font-size: 1.1em;
+        text-align: left;
+        line-height: 1.3em;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .services  .flex-around{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+  }

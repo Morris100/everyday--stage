@@ -1,0 +1,39 @@
+.make-it-work-v2 body{
+    font-family: 'Open Sans', sans-serif;
+}
+.make-it-work-v2{
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.make-it-work-v2 h3{
+    font-size: 57px;
+}
+.make-it-work-v2 h3 span{
+    color: #DF0A15;
+}
+.make-it-work-v2 p{
+    margin: 20px 0px 50px 0px;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.make-it-work-v2 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+     width:214px;
+     height:64px; 
+     padding: 20px 45px;
+    border:3px solid #DF0A15;
+    border-radius:40px/50%;
+    background-color: #DF0A15;
+    margin-top: 10px;
+}
+/* ============ responsive ============ */
+@media only screen and (max-width: 400px) {
+    .make-it-work-v2 a{
+        font-size: 0.7em;
+    }
+  }
+   

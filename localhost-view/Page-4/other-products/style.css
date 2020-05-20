@@ -1,0 +1,93 @@
+.other-products .content-case img{
+    width: 100%;
+    height: 100%;
+}
+.other-products .img{
+    position: relative;
+    background: rgb(250,250,250);
+    background: linear-gradient(180deg, rgba(250,250,250,1) 56%, rgba(89,89,89,1) 71%, rgba(0,0,0,1) 76%, rgba(0,0,0,1) 88%);
+}
+.other-products .content-case{
+    position: relative; 
+    font-family: 'Open Sans', sans-serif;   
+    padding: 0.5px;
+}
+.other-products .case-text{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+.other-products .case-text h4{
+    font-weight: 500;
+}
+.other-products .case-text p{
+    font-size: 0.6em;
+    right: 0px;
+    text-align: right;
+    top: 0px;
+    margin-bottom: 5px;
+}
+.other-products h4{
+    font-weight: 400;
+    font-size: 27px;
+}
+.other-products a{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    color: skyblue;
+}
+.other-products .flex-between{
+    padding: 60px 0px 20px 0px;
+}
+/* @media only screen and (max-width: 1400px) {
+    .other-products    .responsive-flex{
+        display: flex;
+    }
+    .other-products  .content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .other-products   .content2{
+        display: flex;
+        flex-direction: column;
+    }
+  } */
+  @media only screen and (max-width: 760px) {
+    .other-products     .text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .other-products   .text h4, text p , text a{
+        width: 100%;
+        margin: 0px;
+    }
+    .other-products   .text p{
+        margin: 0px;
+        width: 100%;
+    }
+    .other-products   .text a{
+        justify-content: flex-start;
+        margin-top: 20px;
+        width: 100%;
+    }
+    /* .other-products   .responsive-flex{
+        display: block;
+    }
+    .other-products    .content1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .other-products    .content2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+  }

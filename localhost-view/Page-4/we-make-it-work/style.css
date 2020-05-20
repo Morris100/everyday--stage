@@ -1,0 +1,36 @@
+.make-work .complete h4{
+    font-size: 27px;
+    width: 15%;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+.make-work .complete p{
+    width: 70%;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.make-work .background{
+    background-color: #F6F7F9;
+    padding: 70px 0px;
+}
+.make-work .complete{
+    font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width: 1100px) {
+    .make-work    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .make-work    .complete , .complete h4 , .complete p{
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+    }  
+    .make-work   .complete h4{
+        text-align: center;
+    }
+  }
