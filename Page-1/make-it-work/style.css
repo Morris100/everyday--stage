@@ -41,7 +41,7 @@ body{
 }
 /* =============================================== */
 .make-it-work .content{
-    width: 470px;
+    width: 100%;
     height: 238px;
     position: relative;
 }
@@ -75,6 +75,7 @@ background: linear-gradient(180deg, rgba(13,11,11,0.5662640056022409) 100%,
     position: absolute;
     top: 0;
     left: 0;
+   
     width: 100%;
     height: 100%;
 }
@@ -132,4 +133,18 @@ background: linear-gradient(180deg, rgba(13,11,11,0.5662640056022409) 100%,
       .content:nth-child(2) , .content:nth-child(1){
           
       } */
+  }
+  @media only screen and (max-width:550px){
+       .make-it-work .content-width{
+          width: 100%;
+      }
+       .make-it-work .content{
+         width: 95%;
+       
+      } 
+      .make-it-work .bottom-content p{
+          text-align: center;
+          width: 95%;
+
+      } 
   }

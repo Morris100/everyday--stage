@@ -174,3 +174,12 @@ z-index: 2;
           
       }
   }
+  @media only screen and (max-width: 550px){
+      .content-hero .content-with{
+          width: 100%;
+      }
+      .content-hero .hero-text h1{
+          width: 100%;
+         
+      }
+  }

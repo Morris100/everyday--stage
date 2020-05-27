@@ -1,4 +1,4 @@
-.heading .background{
+.heading3 {
     background-image: url('img/headingimgpage3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,18 +8,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.heading .grey-filter{
+.heading3 .grey-filter{
      /* filter: grayscale(85%) brightness(90%) contrast(2);  */
 /* filter: grayscale(20%); */
 background-color:rgba(22, 22, 22, 0.5);
 position: relative;
 z-index: 2;
 }
-.heading .z-index-content{
+.heading3 .z-index-content{
     position: relative;
     z-index: 1;
 }
-.heading .flex-between h3{
+.heading3 .flex-between h3{
     display: flex;
     color: white;
     font-size: 2.2em;
@@ -30,117 +30,120 @@ z-index: 2;
     font-weight: 600;
     letter-spacing: 2px;
 }
-.heading h3 span{
+.heading3 h3 span{
     color: #DF0A15;
 }
-.heading nav a{
+.heading3 nav a{
     color: white;
     text-decoration: none;
     font-size: 1.1em;
     padding: 0px;
     margin: 0px 20px 0px 20px;
 }
-.heading .navigate a:first-child{
+.heading3 .navigate a:first-child{
     margin-left: 40px;
 }
-.heading .navigate{
+.heading3 .navigate{
     margin-top: 10px;
     align-items: center;
     vertical-align: middle;    
 }
-.heading .select{
+.heading3 .select{
     display: flex;
     align-items: center;
     vertical-align: middle; 
     position: relative;
     margin-top: 11px;
 }
-.heading .select img{
+.heading3 .select img{
     width: 20px;
     height: 20px;
     margin: 0px 3px 0px 12px;
 }
-.heading .navigate a:nth-child(6) span{
+.heading3 .navigate a:nth-child(6){
+    display: flex;
+}
+.heading3 .navigate a:nth-child(6) span{
     color: white;
-    display: inline-block;    
-    background-color: #DF0A15;
+    margin-left: 6px;
+    background-color: #DF0A15 !important;
     padding: 2px;
     border-radius: 60px;
     font-size: 0.7em;
     padding: 0px 4px;
     
 /* code to put span element up */
-
+    margin-bottom: 10px;
 }
-.heading .content-width{
+.heading3 .content-width{
     padding: 20px 0px 80px 0px;
 }
-.heading .hero-text{
+.heading3 .hero-text{
     width: 95%;
     margin: 0 auto;
 }
-.heading .fas{
+.heading3 .fas{
     color: white;
 }
-.heading .fa-search{
+.heading3 .fa-search{
     background-color: #DF0A15;
     padding: 4px;
     border-radius: 50%;
     font-size: 0.9em;
 }
 /* ========== start hero text ( middle part ) ======== */
-.heading .hero-text h1{
+.heading3 .hero-text h1{
     color: white;
     font-size: 57px;
     text-align: left;
     margin-top: 80px;
 }
-.heading .hero-text h1 span{
+.heading3 .hero-text h1 span{
     color: #DF0A15;
 }
 /* ================= RESPONSIVE =============== */
 @media only screen and (max-width: 1700px) {
-    .heading  nav{
+    .heading3  nav{
         display: flex;
         flex-direction: column;
         /* flex-wrap: wrap;
         justify-content: flex-start;
         align-self: flex-start; */
     }
-    .heading   .navigate a:first-child{
+    .heading3   .navigate a:first-child{
         display: flex;
         align-self: flex-start;
         justify-content: flex-start;
         margin-left: 0px;
     }
-    .heading   .navigate{
+    .heading3   .navigate{
        
     }
-    .heading  .navigate a:nth-child(6) span{
+    .heading3  .navigate a:nth-child(6) span{
         display: none;
     }
   }
   @media only screen and (max-width: 1200px){
-    .heading    .navigate{
+    .heading3    .navigate{
           display: flex	;
           flex-wrap: wrap;
       }
-      .heading    .navigate a{
+      .heading3    .navigate a{
           display: flex;
           align-self: flex-start;
           justify-content: flex-start;
           float: left;
           margin: 10px;
       }
-      .heading   .hero-text h1{
+      .heading3  .hero-text h1{
           font-size:2.2em
       }
   }
   @media only screen and (max-width: 995px){
-    .heading .select{
+    .heading3 .select{
         justify-content: flex-start;
     }
-    .heading .navigate a{
+    .heading3 .navigate a{
         margin: 10px 0px 0px 0px;
         
     }

@@ -60,17 +60,20 @@ z-index: 2;
     height: 20px;
     margin: 0px 3px 0px 12px;
 }
+.heading2 .navigate a:nth-child(6){
+    display: flex;
+}
 .heading2 .navigate a:nth-child(6) span{
     color: white;
-    display: inline-block;    
-    background-color: #DF0A15;
+    margin-left: 6px;
+    background-color: #DF0A15 !important;
     padding: 2px;
     border-radius: 60px;
     font-size: 0.7em;
     padding: 0px 4px;
     
 /* code to put span element up */
-
+    margin-bottom: 10px;
 }
 .heading2 .content-width{
     padding: 20px 0px 80px 0px;
