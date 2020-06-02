@@ -5,7 +5,7 @@ body{
     background-color: black;
     color: white;
 }
-.huts{
+.hu{
     padding-top: 50px !important;
 }
 .footer .flex h4{
@@ -102,6 +102,6 @@ body{
 
   @media only screen and (max-width: 550px){
       .footer .content-width{
-          width: 100%;
+          width: 95%;
       }
   }

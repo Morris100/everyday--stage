@@ -105,5 +105,8 @@
         flex-wrap: wrap;
     }
   }
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 550px) {
+      .make-it-special .content-width{
+          width: 95%;
+      }
   }

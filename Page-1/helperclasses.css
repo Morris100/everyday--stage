@@ -80,3 +80,8 @@
 .m0-a{
     margin: 0 auto;
 }
+/* ================ COMMON RULESET FOR CONTENT =================== */
+.content-p{
+    font-size: 17px;
+    line-height: 1.4em;
+}

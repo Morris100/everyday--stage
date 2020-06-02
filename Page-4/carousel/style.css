@@ -62,3 +62,16 @@
         text-align: center;
     }
   }
+  @media only screen and(max-width:550px){
+      .slider-page .complete p{
+          width: 95%;
+      }
+      .slider-page .complete h4{
+          margin: 0px;
+      }
+      .slider-page .flex .complete {
+          width: 95%;
+      }
+    }
+      
+

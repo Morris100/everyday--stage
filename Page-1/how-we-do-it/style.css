@@ -1,26 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
 .how-we-do {
     background-color: #F6F7F9;
     padding: 80px 0;
 }
-
 @media screen and (max-width: 500px) {
     .how-we-do {
         background-color: #F6F7F9;
         padding: 35px 0;
     }
 }
-
 .how-we-do .how-heading {
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-
 @media screen and (max-width: 767px) {
     .how-we-do .how-heading {
         padding-bottom: 25px;
@@ -28,70 +24,62 @@ body {
         text-align: center;
     }
 }
-
 .how-we-do .how-heading a {
     color: #1C94D2;
     text-decoration: none;
     font-size: 16px;
     margin-top: 15px;
 }
-
+.how-we-do .how-heading a:hover{
+    color: black;
+    transition: .3s ease;
+}
 @media screen and (max-width: 500px) {
     .how-we-do .how-heading a {
         font-size: 14px;
         margin-top: initial;
     }
 }
-
 .how-we-do .how-heading h3 {
     font-weight: 300;
     font-size: 32px;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .how-we-do .how-heading h3 {
-        font-size: 24px;
+        font-size: 34px;
     }
 }
-
 .how-we-do .items .item {
     background: #fff;
 }
-
-@media screen and (max-width: 991px) {
-    .how-we-do .items .item {
-        margin-bottom: 30px;
-    }
+/* ============= SHOW FILTERS ========== */
+.filter-show , .filter-show2 , .filter-show3 , .filter-show4{
+    visibility: visible;
 }
-
+/* ===================================== */
 @media screen and (max-width: 500px) {
     .how-we-do .items .item {
         margin-bottom: 15px;
     }
 }
-
 .how-we-do .items .item li {
     padding: 10px 15px;
     list-style: none;
 }
-
 .how-we-do .items .item li a {
     color: #1C94D2;
     font-size: 16px;
 }
-
 @media screen and (max-width: 500px) {
     .how-we-do .items .item li a {
         font-size: 14px;
     }
 }
-
 .how-we-do .items .item li a:hover {
     color: #000;
     opacity: .5;
     text-decoration: none;
 }
-
 .how-we-do .items .item img {
     width: 100%;
     object-fit: cover;

@@ -36,9 +36,7 @@ z-index: 2;
 .heading h3 span{
     color: #DF0A15;
 }
-.heading .navigate{
-}
-.heading nav a{
+.heading  a{
     color: white;
     text-decoration: none;
     font-size: 1.1em;
@@ -142,9 +140,6 @@ z-index: 2;
         justify-content: flex-start;
         margin-left: 0px;
     }
-    .navigate{
-       
-    }
     /* .heading   .navigate a:nth-child(6) span{
         display: none;
     } */
@@ -170,16 +165,59 @@ z-index: 2;
           justify-content: flex-start;
       }
       .heading .navigate a{
-          margin: 10px 0px 0px 0px;
-          
+          margin: 10px 0px 0px 0px;        
       }
   }
-  @media only screen and (max-width: 550px){
+  @media only screen and (max-width: 768px){
       .content-hero .content-with{
           width: 100%;
       }
+      .heading .align-navbar{
+          display: flex;
+          flex-direction: column !important;
+          align-items: flex-end;
+      }
+      .heading .naviage {
+          margin-top: 100px;
+      }
       .content-hero .hero-text h1{
+          width: 100%;  
+      }
+      .heading .content-width{
+          width: 95%;
+      }
+      .heading .navbar{
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: row;
           width: 100%;
-         
+      }
+     .heading .navbar-collapse:active{
+          margin-bottom: 200px;
+          font-size: 100px;
+      }
+      .heading .navigate{
+          display: flex;
+          font-display: column;
+      }
+      .heading .navbar-collapse{
+          display: flex;
+          flex-direction: column;
+      }
+      .heading .navbar-toggler-icon{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+      }
+      .heading .align-navbar{
+            display: flex;
+            flex-direction: column;
+      }
+      .heading .flex-between h3{
+          align-self: flex-start;
+      }
+      .heading .content-hero .content-width , .heading .content-hero p{
+          width: 95%;
+          padding-top: 15px;
       }
   }

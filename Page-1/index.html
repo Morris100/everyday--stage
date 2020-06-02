@@ -6,9 +6,9 @@
     <title>heading</title>
     <script src="https://kit.fontawesome.com/fd9dd58e6a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="heading/style.css">
-    <link rel="stylesheet" href="helperclasses.css">
+    <link rel="stylesheet" href="../helperclasses.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="main.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
@@ -17,8 +17,9 @@
     <div class="wrapper  heading">
         <div class="grey-filter">
         <div class="content-width z-index-content">       
-            <nav class="flex-between navbar navbar-expand-lg ">     
-                     <h3 class="">print<span>man.</span></h3>  
+            <nav class="flex-between navbar navbar-expand-lg "> 
+                     <h3 class="align-brand">print<span>man.</span></h3>  
+                     <div class="align-navbar">
                     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
                   </button>
@@ -33,12 +34,15 @@
                     <a href="#"class="nav-item nav-link">Uploadcenter</a>              
                 </div>
                 <div class="select flex ">
-                    <i class="fas fa-search"></i>
                     <img src="heading/img/netherlands.png" alt="netherlands">
                     <i class="fas fa-angle-down"></i>                        
                 </div>
                 </div>
-            </nav>         
+                </div>
+            </nav>  
+            </div> 
+            <div class="content-hero">
+            <div class="content-width">   
             <div class="hero-text ">
                 <h1>Make it <span> remarkable</span></h1>
                 <p>Wij zijn gespecialiseerd in het coordineren van al uw grafische 
@@ -48,7 +52,8 @@
                         <a href="#" class="text-center ">Afspraak maken</a>
                     </div>                           
             </div>          
-        </div>
+       </div>   
+    </div>
     </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -151,27 +156,27 @@
         <div class="items">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="item">
+                    <div class="item filter">
                         <img src="how-we-do-it/img/laag 8.png">
-                        <li><a href="#">Creatieve ondersteuningen</a></li>
+                        <li class="filter-show"><a href="#">Creatieve ondersteuningen</a></li>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="item">
+                    <div class="item filter2">
                         <img src="how-we-do-it/img/layer 32.png">
-                        <li><a href="#">Tekst</a></li>
+                        <li class="filter-show2"\><a href="#">Tekst</a></li>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="item">
+                    <div class="item filter3">
                         <img src="how-we-do-it/img/laag 7.png">
-                        <li><a href="#">Tekst</a></li>
+                        <li class="filter-show3"><a href="#">Tekst</a></li>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="item">
+                    <div class="item filter4">
                         <img src="how-we-do-it/img/layer 33.png">
-                        <li><a href="#">Titel</a></li>
+                        <li class="filter-show4"><a href="#">Titel</a></li>
                     </div>
                 </div>
             </div>
@@ -179,7 +184,7 @@
 
     </div>
 </div>
-
+<script src="how-we-do-it/style.js"></script>
 </body>
 </html>
 <!-- =========================== HOW WE DO ==================================== -->
@@ -201,7 +206,7 @@
         <div class="content-width">
             <div class="text flex">
                 <h4>Make it special</h4>
-                <p>Printman bedient al jaren met veel passie en plezier een diverse klantengroep
+                <p class="">Printman bedient al jaren met veel passie en plezier een diverse klantengroep
                     . Onze klanten zijn actief in verschillende branches, waardoor wij veel kennis
                     hebben opgedaan over uiteenlopende producten en diensten.
                 </p>
@@ -330,7 +335,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link rel="stylesheet" href="services/style.css">
-    <link rel="stylesheet" href="helperclasses.css">
+    <link rel="stylesheet" href="../helperclasses.css">
+    <!-- ==================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- ================= JQUERY  -->
+    <!-- ============ SLICK INCLUDES -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="services/slick/slick.min.js"></script>
+    <script src="services/slick-service.js"></script>
+    <!-- =========================================================== -->
+    <!-- ========== SLICK CSS -->
+    <link rel="stylesheet" type="text/css" href="services/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="services/slick/slick-theme.css"/>
+<!-- ============================================================== -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -339,23 +357,22 @@
     <div class="wrapper background ">
         <div class="dark-bg container-fluid">'
              <div class="content-width ">
-                 <div class="row ">
-            <div class="content tac col-sm-4">
+                 <div class="row slider-area">
+            <div class="content slider tac col-sm-12">
                 <img src="services/img/communicate.png" alt="communicate">
                 <p class="">Onze lijnen zijn kort. waardoor we u supersnelle service kunnen aanbieden</p>
             </div>
-            <div class="content tac col-sm-4">
+            <div class="content slider tac col-sm-12">
                 <img src="services/img/verified.png" alt="verified" class="tac">
                 <p class="">Jarenlang ervaring en een internationaal netwerk garanderen de beste kwaliteit</p>
             </div>
-            <div class="content  tac col-sm-4">
+            <div class="content slider tac col-sm-12">
                 <img src="services/img/user-story.png" alt="user-story">
                 <p class="">Wij ondersteunen uw organisatie van briefing tot oplevering</p>
             </div>
             </div>
         </div>
         </div>
-
     </div>
 </div>
 </body>
@@ -379,7 +396,7 @@
             <div class="conatiner-fluid">
                
                     <h3 class="">let's make it <span>Work</span></h3>
-                    <p class="">Printman bedient al jaren met veel passie en plezier een diverse klantengroep. Onze klanten zijn actief in verschillende branches, waardoor wij veel kennis hebben opgedaan over uiteenlopende producten en diensten. 
+                    <p class="" class="content-p">Printman bedient al jaren met veel passie en plezier een diverse klantengroep. Onze klanten zijn actief in verschillende branches, waardoor wij veel kennis hebben opgedaan over uiteenlopende producten en diensten. 
                     </p>
                     <a href="#" class=>Afspraak maken</a>
               
